@@ -24,6 +24,7 @@ def clear():
 
 root = tk.Tk()
 root.title("Calculator")
+root.resizable(0,0)
 
 entry = tk.Entry(root, width=16, font=("Arial", 24), borderwidth=2, relief="solid", justify="right")
 entry.grid(row=0, column=0, columnspan=4)
